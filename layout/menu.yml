@@ -1,0 +1,35 @@
+menu:
+  home:
+    path: /
+    title: Home
+    url: https://docs.google.com/document/d/1pWK7RYtzl2Cp6BWKNn_Zz9p-Xhy37VDB7LPH6reEKXA/edit
+
+  getting-started:
+    path: /getting-started/
+    title: Getting started
+    url: https://docs.google.com/document/d/1JQWFDxdsMFI8-1DAq-gtH9RQbz51Q9osKa5FUMKLvvE/edit
+
+  building-blocks:
+    path: /building-blocks/
+    title: Building blocks
+    url: https://docs.google.com/document/d/1ChBwsQHWCiPxpLzsU8eMpZyrqFiEmj2-bfGwtz16_iE/edit
+
+  tools:
+    path: /tools/
+    title: Tools
+    url: https://docs.google.com/document/d/1pWK7RYtzl2Cp6BWKNn_Zz9p-Xhy37VDB7LPH6reEKXA/edit
+
+  structures:
+    path: /structures/
+    title: Structures
+    url: https://docs.google.com/document/d/1CnG6hLTQ5moV1DwheKorvCKQAxyOGXcpBeiiTjywuDU/edit
+
+  copy-paste-filling-station:
+    path: /copy-paste-filling-station/
+    title: Copy+paste filling station
+    url: https://docs.google.com/document/d/1sxzyXlV3CO0G8KHwhOV6QUwflvrk6-IqEWVDilgAE1A/edit
+
+  deutsch:
+    path: /deutsch/
+    title: Deutsch
+    url: https://docs.google.com/document/d/1VGcy3Zjtmid9YIYsKqUk8dppsSKpHaMq58Tk7bXHlA0/edit

@@ -4,7 +4,7 @@
 
 <head>
 
-  <title>Structures</title>
+  <title><%= title %></title>
 
   <meta charset="UTF-8" />
 
@@ -84,11 +84,11 @@
 
       <div class="menu">
         <ul>
-        <li><a href="/">Home</a></li><li><a href="/getting-started/">Getting started</a></li><li><a href="/building-blocks/">Building blocks</a></li><li><a href="/tools/">Tools</a></li><li><a href="/structures/">Structures</a></li><li><a href="/copy-paste-filling-station/">Copy+paste filling station</a></li><li><a href="/deutsch/">Deutsch</a></li><li><a href="https://github.com/LiberatingStructures/virtual-liberating-structures.com/">Github</a></li>
+        <% menu_items.each do |item| %><li><a href="<%= item.path %>"><%=item.title %></a></li><% end %><li><a href="https://github.com/LiberatingStructures/virtual-liberating-structures.com/">Github</a></li>
         </ul>
       </div>
 
-     <iframe src="https://docs.google.com/document/d/1CnG6hLTQ5moV1DwheKorvCKQAxyOGXcpBeiiTjywuDU/edit" class="first-row" />
+     <iframe src="<%= iframe_url %>" class="first-row" />
 
   </div>
 
